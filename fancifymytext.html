@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancify My Text</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Fancify My Text!</h1>
+    
+    <!-- Text input area -->
+    <fieldset>
+        <legend>Text</legend>
+        <textarea id="userText" rows="4" cols="30"></textarea>
+    </fieldset>
+    
+    <!-- Fancify controls -->
+    <fieldset>
+        <legend>Fancify</legend>
+        
+        <!-- Button to make the text bigger -->
+        <button id="biggerButton">Bigger!</button>
+
+        <!-- Radio buttons for FancyShmancy and BoringBetty -->
+        <label>
+            <input type="radio" name="style" id="fancyShmancy"> FancyShmancy
+        </label>
+        <label>
+            <input type="radio" name="style" id="boringBetty"> BoringBetty
+        </label>
+        
+        <!-- Button to apply "Moo" effect -->
+        <button id="mooButton">Moo</button>
+    </fieldset>
+
+    <script src="fancifymytext.js"></script>  <!-- Link to your JS file -->
+</body>
+</html>
